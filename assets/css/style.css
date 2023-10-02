@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+h1 {
+    color: aqua;
+    font-size: 100px;
+    animation: degueulasse 2s infinite;
+}
+
+@keyframes degueulasse {
+    0% {
+        color: rgb(9, 255, 0);
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: rgb(242, 255, 0);
+    }
+}
